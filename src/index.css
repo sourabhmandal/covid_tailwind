@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+.quick-light{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.quick-regular{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
 }
+.quick-medium{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+.quick-semibold{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+.quick-bold{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+
+.robo-thin{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.robo-light{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.robo-regular{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.robo-medium{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.robo-bold{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.robo-black{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.oswald-light{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.oswald-semilight{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.oswald-regular{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.oswald-medium{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+.oswald-semibold{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+.oswald-bold{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
